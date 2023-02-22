@@ -1,0 +1,53 @@
+.login-page-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-page {
+  font-family: 'Roboto';
+}
+
+.form-login {
+  width: 480px;
+  height: 480px;
+  box-shadow: 0px 1px 1px 1px grey;
+  padding: 28px 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 2.5;
+}
+
+.login-form-heading {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  margin-right: 15px;
+}
+
+.login-btn {
+  padding: 15px 25px;
+}
+
+.create {
+  background-color: black;
+  color: white;
+}
+
+.checkbox-form {
+  padding: 7px 7px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid grey;
+  width: 250px;
+}
